@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$white: #fff;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #17a2b8;
+$dark: #343a40;
+$light: #f8f9fa;
+
+// text-colors
+.text-primary { color: $primary; }
+.text-secondary { color: $secondary; }
+.text-success { color: $success; }
+.text-danger { color: $danger; }
+.text-warning { color: $warning; }
+.text-info { color: $info; }
+.text-dark { color: $dark; }
+.text-light { color: $light; }
+
+// bg-colors
+.bg-primary {color: $primary;}
+.bg-secondary {color: $secondary;}
+.bg-success {color: $success;}
+.bg-danger {color: $danger;}
+.bg-warning {color: $warning;}
+.bg-info {color: $info;}
+.bg-dark {color: $dark;}
+.bg-light {color: $light;}
+
+// buttons
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-primary {
+    color: $white;    
+    background-color: $primary;
+}
+.btn-secondary {
+    color: $white;    
+    background-color: $secondary;
+}
+.btn-success {
+    color: $white;    
+    background-color: $success;
+}
+.btn-danger {
+    color: $white;    
+    background-color: $danger;
+}
+.btn-warning {
+    color: $white;    
+    background-color: $warning;
+}
+.btn-info {
+    color: $white;    
+    background-color: $info;
+}
+.btn-dark {
+    color: $white;    
+    background-color: $dark;
+}
+.btn-light {
+    color: $dark;    
+    background-color: $light;
+}
+
+// button outline
+.btn-outline-primary {
+    border: 1px solid $primary;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-secondary {
+    border: 1px solid $secondary;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-success {
+    border: 1px solid $success;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-danger {
+    border: 1px solid $danger;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-warning {
+    border: 1px solid $warning;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-info {
+    border: 1px solid $info;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-dark {
+    border: 1px solid $dark;
+    color: $dark;    
+    background-color: transparent;
+}
+.btn-outline-light {
+    border: 1px solid $light;
+    color: $dark;    
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    color: $white;    
+    background-color: $primary;
+}
+.btn-outline-secondary:hover {
+    color: $white;    
+    background-color: $secondary;
+}
+.btn-outline-success:hover {
+    color: $white;    
+    background-color: $success;
+}
+.btn-outline-danger:hover {
+    color: $white;    
+    background-color: $danger;
+}
+.btn-outline-warning:hover {
+    color: $white;    
+    background-color: $warning;
+}
+.btn-outline-info:hover {
+    color: $white;    
+    background-color: $info;
+}
+.btn-outline-dark:hover {
+    color: $white;    
+    background-color: $dark;
+}
+.btn-outline-light:hover {
+    color: $dark;    
+    background-color: $light;
+}
