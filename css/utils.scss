@@ -21,14 +21,14 @@ $light: #f8f9fa;
 .text-light { color: $light; }
 
 // bg-colors
-.bg-primary {color: $primary;}
-.bg-secondary {color: $secondary;}
-.bg-success {color: $success;}
-.bg-danger {color: $danger;}
-.bg-warning {color: $warning;}
-.bg-info {color: $info;}
-.bg-dark {color: $dark;}
-.bg-light {color: $light;}
+.bg-primary {background-color: $primary;}
+.bg-secondary {background-color: $secondary;}
+.bg-success {background-color: $success;}
+.bg-danger {background-color: $danger;}
+.bg-warning {background-color: $warning;}
+.bg-info {background-color: $info;}
+.bg-dark {background-color: $dark;}
+.bg-light {background-color: $light;}
 
 // buttons
 .btn {
@@ -149,4 +149,8 @@ $light: #f8f9fa;
 .btn-outline-light:hover {
     color: $dark;    
     background-color: $light;
+}
+
+.flex-items {
+    display: flex;
 }

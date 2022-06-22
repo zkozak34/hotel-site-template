@@ -32,35 +32,35 @@
 }
 
 .bg-primary {
-  color: #007bff;
+  background-color: #007bff;
 }
 
 .bg-secondary {
-  color: #6c757d;
+  background-color: #6c757d;
 }
 
 .bg-success {
-  color: #28a745;
+  background-color: #28a745;
 }
 
 .bg-danger {
-  color: #dc3545;
+  background-color: #dc3545;
 }
 
 .bg-warning {
-  color: #ffc107;
+  background-color: #ffc107;
 }
 
 .bg-info {
-  color: #17a2b8;
+  background-color: #17a2b8;
 }
 
 .bg-dark {
-  color: #343a40;
+  background-color: #343a40;
 }
 
 .bg-light {
-  color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .btn {
@@ -200,4 +200,8 @@
 .btn-outline-light:hover {
   color: #343a40;
   background-color: #f8f9fa;
+}
+
+.flex-items {
+  display: flex;
 }/*# sourceMappingURL=utils.css.map */
