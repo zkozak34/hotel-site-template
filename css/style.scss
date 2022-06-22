@@ -109,7 +109,7 @@
     }
   }
 
-  #about {
+  .about {
     color: #fff;
 
     .column-1 {
@@ -134,6 +134,14 @@
       p {
         margin: 2rem 0;
       }
+    }
+  }
+
+  #gallery {
+    img:hover {
+      cursor: pointer;
+      opacity: 0.8;
+      transition: 0.2s;
     }
   }
 }
