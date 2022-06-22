@@ -257,4 +257,21 @@
 }
 .card .card-body {
   padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .flex-items {
+    flex-direction: column;
+  }
+  .flex-items > div {
+    padding: 10px;
+  }
+
+  .flex-columns .column {
+    flex: 100%;
+  }
+
+  .flex-grid .column {
+    flex: 50%;
+  }
 }/*# sourceMappingURL=utils.css.map */

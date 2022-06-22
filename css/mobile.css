@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .main-header .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+  .main-header .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

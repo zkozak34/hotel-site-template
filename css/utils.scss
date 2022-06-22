@@ -248,3 +248,25 @@ $light: #f8f9fa;
     padding: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .flex-items {
+    flex-direction: column;
+
+    > div {
+      padding: 10px;
+    }
+  }
+
+  .flex-columns {
+    .column {
+      flex: 100%;
+    }
+  }
+
+  .flex-grid {
+    .column {
+      flex: 50%;
+    }
+  }
+}
