@@ -144,4 +144,35 @@
       transition: 0.2s;
     }
   }
+
+  #rooms {
+    .flex-items {
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+      gap: 1rem;
+    }
+  }
+
+  #teams {
+    .flex-items {
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+
+      > div {
+        padding: 20px;
+        flex-basis: 100%;
+
+        img {
+          clip-path: circle(39% at 50% 50%);
+          transition: 0.2s;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
 }

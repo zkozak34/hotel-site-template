@@ -251,6 +251,14 @@
   padding: 0 0.4rem;
 }
 
+.card {
+  color: #fff;
+  font-weight: 700;
+}
+.card .card-body {
+  padding: 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -412,4 +420,27 @@ img {
   cursor: pointer;
   opacity: 0.8;
   transition: 0.2s;
+}
+.main-body #rooms .flex-items {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  gap: 1rem;
+}
+.main-body #teams .flex-items {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.main-body #teams .flex-items > div {
+  padding: 20px;
+  flex-basis: 100%;
+}
+.main-body #teams .flex-items > div img {
+  -webkit-clip-path: circle(39% at 50% 50%);
+          clip-path: circle(39% at 50% 50%);
+  transition: 0.2s;
+}
+.main-body #teams .flex-items > div img:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
